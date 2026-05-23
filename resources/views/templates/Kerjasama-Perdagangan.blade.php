@@ -65,7 +65,7 @@
   {{-- Header --}}
   <div class="header">STAT – SNAPSHOTS</div>
 
-  <p class="sub-info">BSKLN: {{ $date }}</p>
+  <p class="sub-info">Portfolio Demo: {{ $date }}</p>
 
   <h3>STAT-SNAPSHOTS NILAI KERJASAMA PERDAGANGAN {{ strtoupper($originLabel) }} DENGAN {{ strtoupper($destLabel) }}</h3>
   <h3>NILAI PERDAGANGAN {{ strtoupper($originLabel) }} KE {{ strtoupper($destLabel) }}<br>{{ $year_start }} - {{ $year_end }}</h3>
@@ -100,9 +100,9 @@
     <div class="source">Sumber: {{ $sumber }}, diolah</div>
 
     <div class="footer">
-      Badan Strategi Kebijakan Luar Negeri (BSKLN)<br>
-      Kementerian Luar Negeri<br>
-      Republik Indonesia
+      Portfolio Demo Team<br>
+      Strategy & Analytics Showcase<br>
+      Sample Repository
     </div>
 
     @if (!$loop->last)

@@ -510,19 +510,19 @@ Yang sudah masuk migration create table:
 
 Seeder yang terkait:
 
-- [PermissionSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/PermissionSeeder.php)
-- [RoleTableSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/RoleTableSeeder.php)
-- [UserTableSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/UserTableSeeder.php)
-- [FaqSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/FaqSeeder.php)
+- [PermissionSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/PermissionSeeder.php)
+- [RoleTableSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/RoleTableSeeder.php)
+- [UserTableSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/UserTableSeeder.php)
+- [FaqSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/FaqSeeder.php)
 
 ## Implementasi Teknis
 
 Layer yang dipakai:
 
-- request: [RoleManagementRequest.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Requests/AdminDashboard/RoleManagementRequest.php)
-- controller: [RoleManagementController.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Controllers/Api/AdminDashboard/RoleManagementController.php)
-- service: [RoleManagementService.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Services/AdminDashboard/RoleManagementService.php)
-- repository: [RoleManagementRepository.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Repositories/AdminDashboard/RoleManagement/RoleManagementRepository.php)
+- request: [RoleManagementRequest.php](/c:/laragon/www/SIDE_BE/app/Http/Requests/AdminDashboard/RoleManagementRequest.php)
+- controller: [RoleManagementController.php](/c:/laragon/www/SIDE_BE/app/Http/Controllers/Api/AdminDashboard/RoleManagementController.php)
+- service: [RoleManagementService.php](/c:/laragon/www/SIDE_BE/app/Services/AdminDashboard/RoleManagementService.php)
+- repository: [RoleManagementRepository.php](/c:/laragon/www/SIDE_BE/app/Repositories/AdminDashboard/RoleManagement/RoleManagementRepository.php)
 
 Catatan implementasi:
 

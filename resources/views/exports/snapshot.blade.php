@@ -90,7 +90,7 @@
 
         <div class="header-bar">STAT- SNAPSHOTS</div>
 
-        <h3 class="info-line">BSKLN: {{ $tanggalCetak }}</h3>
+        <h3 class="info-line">Portfolio Demo: {{ $tanggalCetak }}</h3>
         <h3>STAT-SNAPSHOTS ANALISIS INTELIGEN PASAR :</h3>
         <h3>HASIL RCA-CMSA PEMETAAN DAN IDENTIFIKASI PRODUK POTENSIAL</h3>
         <h3>{{ strtoupper($originName) }} - {{ strtoupper($destinationName) }}</h3>
@@ -135,9 +135,9 @@
 
         {{-- Footer manual di bawah setiap halaman --}}
         <div style="margin-top: 20px; font-size: 9px; text-align: center; line-height: 1.2; color: #555;">
-            Badan Strategi Kebijakan Luar Negeri (BSKLN)<br>
-            Kementerian Luar Negeri<br>
-            Republik Indonesia
+            Portfolio Demo Team<br>
+            Strategy & Analytics Showcase<br>
+            Sample Repository
         </div>
     @endforeach
 

@@ -44,11 +44,11 @@
         <div class="footer-line"></div>
         <div class="footer-row">
             <div class="footer-cell">
-                Jl. Taman Pejambon No.6, Senen, Jakarta Pusat, DKI Jakarta, 10410
+                Remote demo environment | Jakarta, Indonesia
             </div>
             <div class="footer-cell footer-right">
-                <span class="footer-item">data1.pskikad@kemlu.go.id</span>
-                <span class="footer-item">side.kemlu.go.id</span>
+                <span class="footer-item">portfolio@example.com</span>
+                <span class="footer-item">portfolio-demo.example</span>
             </div>
         </div>
     </div>
@@ -57,11 +57,11 @@
         <table class="header-table">
             <tr>
                 <td class="logo-cell">
-                    <img class="logo-img" src="{{ public_path('assets/img/logo-kemlu.png') }}" alt="Logo Kemlu">
+                    <img class="logo-img" src="{{ public_path('assets/img/logo.png') }}" alt="Portfolio Logo">
                 </td>
                 <td class="header-left">
-                    Kementerian Luar Negeri Republik Indonesia<br>
-                    <div class="header-title">Badan Strategi Kebijakan Luar Negeri (BSKLN)</div>
+                    Trade Analytics Portfolio<br>
+                    <div class="header-title">Portfolio Demo Team</div>
                     <div class="header-subtitle">Data Summary</div>
                 </td>
                 <td class="header-right">

@@ -118,7 +118,7 @@
 
     <div class="header-bar">DATA SUMMARY</div>
 
-    <h3 class="info-line">BSKLN: {{ $tanggalCetak }}</h3>
+    <h3 class="info-line">Portfolio Demo: {{ $tanggalCetak }}</h3>
 
     <h2>ANALISIS INTELIJEN PASAR :</h2>
     <h2>PEMETAAN DAN IDENTIFIKASI PRODUK POTENSIAL</h2>
@@ -187,9 +187,9 @@
         </table>
 
         <div style="margin-top: 20px; font-size: 9px; text-align: center; line-height: 1.2; color: #555;">
-            Badan Strategi Kebijakan Luar Negeri (BSKLN)<br>
-            Kementerian Luar Negeri<br>
-            Republik Indonesia
+            Portfolio Demo Team<br>
+            Strategy & Analytics Showcase<br>
+            Sample Repository
         </div>
     @endforeach
 

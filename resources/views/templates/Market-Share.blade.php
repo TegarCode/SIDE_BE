@@ -88,7 +88,7 @@
     <span>STAT</span> - <span style="font-weight: normal;">SNAPSHOTS</span>
   </div>
 
-  <p class="sub-info">BSKLN: {{ \Carbon\Carbon::now()->locale('id')->isoFormat('D MMMM YYYY') }}</p>
+  <p class="sub-info">Portfolio Demo: {{ \Carbon\Carbon::now()->locale('id')->isoFormat('D MMMM YYYY') }}</p>
 
   <h3>
     STAT-SNAPSHOTS MARKET SHARE<br>
@@ -125,9 +125,9 @@
     <div class="source">Sumber: {{ $sumber }}, diolah</div>
 
     <div class="footer">
-      Badan Strategi Kebijakan Luar Negeri (BSKLN)<br>
-      Kementerian Luar Negeri<br>
-      Republik Indonesia
+      Portfolio Demo Team<br>
+      Strategy & Analytics Showcase<br>
+      Sample Repository
     </div>
 
     @if (!$loop->last)

@@ -11,8 +11,8 @@ class CorsMiddleware
         'http://localhost:5173',
         'https://side.bskln.id',
         'https://www.side.bskln.id',
-        'https://side.kemlu.go.id',
-        'https://www.side.kemlu.go.id',
+        'https://portfolio-demo.example',
+        'https://www.portfolio-demo.example',
     ];
 
     public function handle(Request $request, Closure $next)

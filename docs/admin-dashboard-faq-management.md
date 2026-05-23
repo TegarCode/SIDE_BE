@@ -183,7 +183,7 @@ Delete memakai soft delete pada topic dan seluruh item di bawahnya.
 
 ## Implementasi
 
-- request: [FaqManagementRequest.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Requests/AdminDashboard/FaqManagementRequest.php)
-- controller: [FaqManagementController.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Controllers/Api/AdminDashboard/FaqManagementController.php)
-- service: [FaqManagementService.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Services/AdminDashboard/FaqManagementService.php)
-- repository: [FaqManagementRepository.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Repositories/AdminDashboard/FaqManagement/FaqManagementRepository.php)
+- request: [FaqManagementRequest.php](/c:/laragon/www/SIDE_BE/app/Http/Requests/AdminDashboard/FaqManagementRequest.php)
+- controller: [FaqManagementController.php](/c:/laragon/www/SIDE_BE/app/Http/Controllers/Api/AdminDashboard/FaqManagementController.php)
+- service: [FaqManagementService.php](/c:/laragon/www/SIDE_BE/app/Services/AdminDashboard/FaqManagementService.php)
+- repository: [FaqManagementRepository.php](/c:/laragon/www/SIDE_BE/app/Repositories/AdminDashboard/FaqManagement/FaqManagementRepository.php)

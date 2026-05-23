@@ -129,7 +129,7 @@ Delete memakai soft delete.
 
 ## Implementasi
 
-- request: [ContactManagementRequest.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Requests/AdminDashboard/ContactManagementRequest.php)
-- controller: [ContactManagementController.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Controllers/Api/AdminDashboard/ContactManagementController.php)
-- service: [ContactManagementService.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Services/AdminDashboard/ContactManagementService.php)
-- repository: [ContactManagementRepository.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Repositories/AdminDashboard/ContactManagement/ContactManagementRepository.php)
+- request: [ContactManagementRequest.php](/c:/laragon/www/SIDE_BE/app/Http/Requests/AdminDashboard/ContactManagementRequest.php)
+- controller: [ContactManagementController.php](/c:/laragon/www/SIDE_BE/app/Http/Controllers/Api/AdminDashboard/ContactManagementController.php)
+- service: [ContactManagementService.php](/c:/laragon/www/SIDE_BE/app/Services/AdminDashboard/ContactManagementService.php)
+- repository: [ContactManagementRepository.php](/c:/laragon/www/SIDE_BE/app/Repositories/AdminDashboard/ContactManagement/ContactManagementRepository.php)

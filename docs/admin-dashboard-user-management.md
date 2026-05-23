@@ -366,15 +366,15 @@ Yang sudah masuk migration create table users:
 
 Seeder yang terkait:
 
-- [PermissionSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/PermissionSeeder.php)
-- [RoleTableSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/RoleTableSeeder.php)
-- [UserTableSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/UserTableSeeder.php)
+- [PermissionSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/PermissionSeeder.php)
+- [RoleTableSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/RoleTableSeeder.php)
+- [UserTableSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/UserTableSeeder.php)
 
 ## Implementasi Teknis
 
 Layer yang dipakai:
 
-- request: [UserManagementRequest.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Requests/AdminDashboard/UserManagementRequest.php)
-- controller: [UserManagementController.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Controllers/Api/AdminDashboard/UserManagementController.php)
-- service: [UserManagementService.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Services/AdminDashboard/UserManagementService.php)
-- repository: [UserManagementRepository.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Repositories/AdminDashboard/UserManagement/UserManagementRepository.php)
+- request: [UserManagementRequest.php](/c:/laragon/www/SIDE_BE/app/Http/Requests/AdminDashboard/UserManagementRequest.php)
+- controller: [UserManagementController.php](/c:/laragon/www/SIDE_BE/app/Http/Controllers/Api/AdminDashboard/UserManagementController.php)
+- service: [UserManagementService.php](/c:/laragon/www/SIDE_BE/app/Services/AdminDashboard/UserManagementService.php)
+- repository: [UserManagementRepository.php](/c:/laragon/www/SIDE_BE/app/Repositories/AdminDashboard/UserManagement/UserManagementRepository.php)

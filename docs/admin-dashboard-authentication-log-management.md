@@ -247,21 +247,21 @@ Yang sudah masuk migration create table:
 
 Seeder yang terkait:
 
-- [PermissionSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/PermissionSeeder.php)
-- [RoleTableSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/RoleTableSeeder.php)
+- [PermissionSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/PermissionSeeder.php)
+- [RoleTableSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/RoleTableSeeder.php)
 
 ## Implementasi Teknis
 
 Layer yang dipakai:
 
-- request: [AuthenticationLogManagementRequest.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Requests/AdminDashboard/AuthenticationLogManagementRequest.php)
-- controller: [AuthenticationLogManagementController.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Controllers/Api/AdminDashboard/AuthenticationLogManagementController.php)
-- service: [AuthenticationLogManagementService.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Services/AdminDashboard/AuthenticationLogManagementService.php)
-- repository: [AuthenticationLogManagementRepository.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Repositories/AdminDashboard/AuthenticationLogManagement/AuthenticationLogManagementRepository.php)
+- request: [AuthenticationLogManagementRequest.php](/c:/laragon/www/SIDE_BE/app/Http/Requests/AdminDashboard/AuthenticationLogManagementRequest.php)
+- controller: [AuthenticationLogManagementController.php](/c:/laragon/www/SIDE_BE/app/Http/Controllers/Api/AdminDashboard/AuthenticationLogManagementController.php)
+- service: [AuthenticationLogManagementService.php](/c:/laragon/www/SIDE_BE/app/Services/AdminDashboard/AuthenticationLogManagementService.php)
+- repository: [AuthenticationLogManagementRepository.php](/c:/laragon/www/SIDE_BE/app/Repositories/AdminDashboard/AuthenticationLogManagement/AuthenticationLogManagementRepository.php)
 
 Catatan implementasi:
 
 - lookup detail dan delete menggunakan `authentication_log.uuid`
 - create log tidak diekspos ke admin dashboard karena sumber data berasal dari activity login sistem
 - field histori login seperti `login_at`, `logout_at`, `ip_address`, dan `user_agent` tidak diubah lewat endpoint admin
-- UUID authentication log diisi otomatis lewat listener pada [AppServiceProvider.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Providers/AppServiceProvider.php)
+- UUID authentication log diisi otomatis lewat listener pada [AppServiceProvider.php](/c:/laragon/www/SIDE_BE/app/Providers/AppServiceProvider.php)

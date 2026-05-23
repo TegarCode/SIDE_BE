@@ -85,9 +85,9 @@ class RCACMSAController extends Controller
 
                 $footer = $section->addFooter();
                 $footerStyle = ['alignment' => Jc::CENTER, 'lineHeight' => 1.0];
-                $footer->addText('Badan Strategi Kebijakan Luar Negeri (BSKLN)', ['size' => 8], $footerStyle);
-                $footer->addText('Kementerian Luar Negeri', ['size' => 8], $footerStyle);
-                $footer->addText('Republik Indonesia', ['size' => 8], $footerStyle);
+                $footer->addText('Portfolio Demo Team', ['size' => 8], $footerStyle);
+                $footer->addText('Strategy & Analytics Showcase', ['size' => 8], $footerStyle);
+                $footer->addText('Sample Repository', ['size' => 8], $footerStyle);
 
                 $imagePath = public_path('assets/img/report-generator/stat-snapshots.png');
                 if (is_file($imagePath)) {
@@ -96,7 +96,7 @@ class RCACMSAController extends Controller
                     Log::warning('RCACMSA snapshotWord image missing', ['path' => $imagePath]);
                 }
 
-                $section->addText('BSKLN: '.now()->translatedFormat('d F Y'), $fontTitle);
+                $section->addText('Portfolio Demo: '.now()->translatedFormat('d F Y'), $fontTitle);
                 $section->addText('STAT-SNAPSHOTS ANALISIS INTELIJEN PASAR :', $fontTitle, $centerAlign);
                 $section->addText('HASIL RCA-CMSA PEMETAAN DAN IDENTIFIKASI PRODUK POTENSIAL', $fontTitle, $centerAlign);
                 $section->addText("{$originName} - {$destinationName}", $fontTitle, $centerAlign);
@@ -279,7 +279,7 @@ class RCACMSAController extends Controller
 
         // Header Section
         $section->addImage(public_path('assets/img/report-generator/summary.png'), ['width' => 450]);
-        $section->addText('BSKLN: '.now()->translatedFormat('d F Y'), $fontTitle);
+        $section->addText('Portfolio Demo: '.now()->translatedFormat('d F Y'), $fontTitle);
         $section->addTitle('ANALISIS INTELIJEN PASAR :', 2);
         $section->addTitle('PEMETAAN DAN IDENTIFIKASI PRODUK POTENSIAL', 2);
         $section->addTitle("{$originName} - {$destinationName}", 2);

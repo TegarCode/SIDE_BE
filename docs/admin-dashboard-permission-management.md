@@ -345,17 +345,17 @@ Yang sudah masuk migration create table:
 
 Seeder yang terkait:
 
-- [PermissionSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/PermissionSeeder.php)
-- [RoleTableSeeder.php](/c:/laragon/www/BSKLN/databank/databank-be/database/seeders/RoleTableSeeder.php)
+- [PermissionSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/PermissionSeeder.php)
+- [RoleTableSeeder.php](/c:/laragon/www/SIDE_BE/database/seeders/RoleTableSeeder.php)
 
 ## Implementasi Teknis
 
 Layer yang dipakai:
 
-- request: [PermissionManagementRequest.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Requests/AdminDashboard/PermissionManagementRequest.php)
-- controller: [PermissionManagementController.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Http/Controllers/Api/AdminDashboard/PermissionManagementController.php)
-- service: [PermissionManagementService.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Services/AdminDashboard/PermissionManagementService.php)
-- repository: [PermissionManagementRepository.php](/c:/laragon/www/BSKLN/databank/databank-be/app/Repositories/AdminDashboard/PermissionManagement/PermissionManagementRepository.php)
+- request: [PermissionManagementRequest.php](/c:/laragon/www/SIDE_BE/app/Http/Requests/AdminDashboard/PermissionManagementRequest.php)
+- controller: [PermissionManagementController.php](/c:/laragon/www/SIDE_BE/app/Http/Controllers/Api/AdminDashboard/PermissionManagementController.php)
+- service: [PermissionManagementService.php](/c:/laragon/www/SIDE_BE/app/Services/AdminDashboard/PermissionManagementService.php)
+- repository: [PermissionManagementRepository.php](/c:/laragon/www/SIDE_BE/app/Repositories/AdminDashboard/PermissionManagement/PermissionManagementRepository.php)
 
 Catatan implementasi:
 
